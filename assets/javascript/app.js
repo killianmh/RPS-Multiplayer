@@ -39,7 +39,9 @@ window.onload = function(){
 
 	//first check to see if this player existed and is exiting game
 
-	if()
+	database.ref().child("Players").remove();
+	database.ref().child("Turn").remove();
+	database.ref().child("pickWinner").remove();
 
 	// database.ref().child("Players").child("Player1").remove();
 
@@ -53,7 +55,7 @@ window.onload = function(){
 		if(!snapshot.child("pickWinner").exists()){
 			database.ref().child("pickWinner").set(0);
 		}
-		database.ref().child("Players").child("Player1").remove();
+		
 	})
 
 	// to get enterPlayer function to work, uncomment this line:
