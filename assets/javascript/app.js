@@ -59,7 +59,7 @@ window.onload = function(){
 	})
 
 	// to get enterPlayer function to work, uncomment this line:
-	// enterPlayer(); 
+	// enterPlayer();   
 
 
 	//Event listener for start click button:
