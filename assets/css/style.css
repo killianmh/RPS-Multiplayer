@@ -10,3 +10,16 @@ div{
 	width: 100%;
 	height: 200px;
 }
+
+.chatBox{
+	height: 200px;
+}
+
+.chatInput{
+	width: 500px;
+}
+
+.chatBtn{
+	width: 100px;
+	height: 20px;
+}
